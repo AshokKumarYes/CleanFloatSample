@@ -1,5 +1,9 @@
 //: Playground - noun: a place where people can play
 
+import UIKit
+
+var str = "Hello, playground"
+
 extension Float {
     var cleanValue: String {
         return self % 1 == 0 ? String(format: "%.0f", self) : String(self)
